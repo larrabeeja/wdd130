@@ -22,6 +22,11 @@ main img {
 p {
     padding: 0;
 }
+footer {
+    margin-top: 1em;
+    boarder-top: 1px solid #000;
+    text-align: center;
+}
 nav {
     background-color: steelblue;
     padding: 10px;
