@@ -2,3 +2,33 @@
 /*EB Garamond*/
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=EB+Garamond&family=Exo+2&family=Libre+Baskerville&family=Raleway:wght@500&display=swap');
 /*Exo 2*/
+:root {
+  --primary-color: #xxxxx;
+  --secondary-color: #xxxxx;
+  --accent1-color: #xxxxx;
+  --accent2-color: #xxxx;
+  
+  --heading-font: '______', serif;
+  --paragraph-font: '______', serif;
+
+  --nav-background-color: #;
+  --nav-link-color: #;
+  --nav-hover-link-color: #;
+  --nav-hover-background-color: #;
+}
+body {
+    font: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+header{
+    padding:20px;
+    background-color: var(--accent1-color)
+}
+p{
+    padding: 25px;
+}
