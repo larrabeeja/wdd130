@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=EB+Garamond&family=Exo+2&family=Libre+Baskerville&family=Raleway:wght@500&display=swap');
 /*Exo 2*/
 :root {
-  --primary-color: #2DC7FF
+  --primary-color: #2DC7FF;
   --secondary-color: #00ABE7;
   --accent1-color: #0081AF;
   --accent2-color: #EABA6B;
@@ -11,10 +11,10 @@
   --heading-font: 'EB Garamond', serif;
   --paragraph-font: 'Exo 2', serif;
 
-  --nav-background-color: #;
-  --nav-link-color: #;
-  --nav-hover-link-color: #;
-  --nav-hover-background-color: #;
+  --nav-background-color: #2DC7FF;
+  --nav-link-color: #0081AF;
+  --nav-hover-link-color: #EABA6B;
+  --nav-hover-background-color: #0081AF;
 }
 body {
     font: var(--paragraph-font);
