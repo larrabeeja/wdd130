@@ -3,13 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=EB+Garamond&family=Exo+2&family=Libre+Baskerville&family=Raleway:wght@500&display=swap');
 /*Exo 2*/
 :root {
-  --primary-color: #xxxxx;
-  --secondary-color: #xxxxx;
-  --accent1-color: #xxxxx;
-  --accent2-color: #xxxx;
+  --primary-color: #2DC7FF
+  --secondary-color: #00ABE7;
+  --accent1-color: #0081AF;
+  --accent2-color: #EABA6B;
   
-  --heading-font: '______', serif;
-  --paragraph-font: '______', serif;
+  --heading-font: 'EB Garamond', serif;
+  --paragraph-font: 'Exo 2', serif;
 
   --nav-background-color: #;
   --nav-link-color: #;
