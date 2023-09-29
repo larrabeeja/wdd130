@@ -26,6 +26,12 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
     text-decoration: none;
 }
+h1 {
+    text-align: absolute;
+}
+article{
+    position: absolute;
+}
 header{
     padding:20px;
     background-color: var(--accent1-color)
@@ -53,5 +59,10 @@ color: var(--nav-link-color);
 Nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
+}
+.hero img {
+    display:block;
+    width: 100%;
+    height: auto;
 }
 
