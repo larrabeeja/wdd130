@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML and CSS Quiz</title>
+    <meta name="author" content="Jason Larrabee">
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+    <header>
+        <h1>HTML and CSS Quiz</h1>
+    </header>
+    <div class="flex">
+        <main>
+            <form>
+                <legend>
+                    <!--<fieldset>
+                <legend>Contact Information</legend>
+                form elements will go here
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                -- form elements will go here
+            </fieldset>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="fullname"></label>
+                <input type="text" id="fullname" name="fullname">
+                <label for="email">Email</label>
+                <input type="email" id="username" name="useremail">
+            </fieldset> -->
+                    <fieldset>
+                        <label for="Question1">1. Why would someone want to use CSS over just adding style tags into
+                            their
+                            HTML?</label>
+                        <textarea id="q1" name="Question one"></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <label for="comment">2. Which of these is a valid CSS comment tag?</label>
+                        <select id="q2" name="comment">
+                            <option value="not answer">Choose One</option>
+                            <option value="css">/* */</option>
+                            <option value="html">!-- --</option>
+                            <option value="incorrect">*/ /*</option>
+                            <option value="incorrect">comment -- -- /comment</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <label for="Question3">3. What Does HTML stand for?</label>
+                        <label for="answer"></label>
+                        <input type="text" id="answer" name="full answer">
+                    </fieldset>
+                    <fieldset>
+                        <label for="Question3">4. What padding value requires no measurment value (i.e. px, rem, etc.)
+                            entered
+                            after it in order to work?</label>
+                        <label for="answer"></label>
+                        <input type="number" id="q4" name="number answer">
+                    </fieldset>
+                    <button type="submit">Submit Answers</button>
+                </legend>
+            </form>
+        </main>
+    </div>
+    <footer>
+        <p>Thanks for taking this test. I hope it was easy and that you passed with flying colors!</p>
+    </footer>
+</body>
+
+</html>

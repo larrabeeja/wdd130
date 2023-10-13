@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 840px;
+    grid-column: 2;
+    margin: 1rem;
+}
+
+footer {
+    margin-top: 1em;
+    border-top: 1px solid #000;
+    text-align: center;
+}
+
+h1 {
+    color: steelblue;
+    border-bottom: 1px solid #000;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+
+p {
+    padding: 10px;
+}
+
+/* Class Selectors */
+
+header,
+footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+fieldset {
+    margin-top: 1em;
+    background-color: rgb(176, 176, 221);
+    text-align: center;
+    width: 20rem;
+    position: center;
+
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
